@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Press A Key To Start</h1>
+    <button class="start-btn"><img id="image" src="./logos/start.png" height="30" alt="Play"></button>
+    <div class="container">
+        <div class="row">
+            <div type="button" id="red" class="red btn"></div>
+            <div type="button" id="yellow" class="yellow btn"></div>
+        </div>
+        <div class="row">
+            <div type="button" id="green" class="green btn"></div>
+            <div type="button" id="blue" class="blue btn"></div>
+        </div>
+    </div>
+    <button class="btn-instructions">Game Instructions</button>
+    <p id="instructions">Simon is an electronic game of short-term memory skill.
+        The device creates a series of tones and lights and the player has to repeat the sequence.
+        If the player succeeds, the series becomes progressively longer and more complex. Once the user fails, the game is over. 
+    </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
