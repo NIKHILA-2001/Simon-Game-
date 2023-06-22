@@ -1,12 +1,16 @@
 body{
     background-color: rgb(28, 44, 68);
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
 h1{
-    font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
     margin:  5%;
     color: #fbf9ee;
+}
+.score{
+    color: rgb(250, 198, 135);
+    display: none;
 }
 .container{
     display: block;
