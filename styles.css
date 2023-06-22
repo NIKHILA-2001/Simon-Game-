@@ -9,6 +9,7 @@ h1{
     color: #fbf9ee;
 }
 .score{
+    font-size: 2rem;
     color: rgb(250, 198, 135);
     display: none;
 }
@@ -77,6 +78,9 @@ h1{
         font-size: 2rem;
         margin:  5%;
         color: #fbf9ee;
+    }
+    .score{
+        font-size: 1rem;
     }
     .start-btn{
         display: inline-block;
